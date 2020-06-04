@@ -11,13 +11,13 @@
 <body>
     <div class = 'box'>
         <h2>My To Do List</h2>
-        <ul class = 'todo-list'>
+        <ul id = 'todo-list'>
             <li class = 'list'>Go to the Gym<button class ='close'><i class="fas fa-window-close"></i></button></li>
             <li class = 'list'>Meet friends<button class ='close'><i class="fas fa-window-close"></i></button></li>
             <li class = 'list'>Go to walk<button class = 'close'><i class="fas fa-window-close"></i></button></li>
         </ul>
-        <input type="text" class="myInput" placeholder="Enter Item">
-        <button class ="addBtn">Submit</button>
+        <input type="text" id="myInput" placeholder="Enter Item">
+        <button onclick="newElement()" id ="addBtn" type = 'Submit'>Submit</button>
     </div>
 </body>
 </html>
