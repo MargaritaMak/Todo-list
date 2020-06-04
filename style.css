@@ -5,8 +5,7 @@ body{
 
 .box {
     position: absolute;
-    width: 400px;
-    height: 250px;
+    width: 420px;
     left:0;
     right: 0;
     top: 30%;
@@ -30,6 +29,7 @@ ul li:hover {
 
 #myInput{
     margin-left: 35px;
+    margin-bottom: 10px;
     width: 70%;
     height: 10%;
 }
@@ -42,7 +42,7 @@ ul li:hover {
     margin-top: 9px;
     cursor: pointer;
     position: absolute;
-    right: 0%;
+    right: 3%;
     padding: 7px 16px;
     transform: translate(0%, -50%);
   }
