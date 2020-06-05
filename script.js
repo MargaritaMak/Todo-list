@@ -1,13 +1,15 @@
 const close =  document.getElementsByClassName('close');
 
-
+function onDelete(){
 for(let i = 0; i < close.length; i++){
     close[i].onclick = function(){
         let elem = document.getElementsByClassName('list');
         elem[i].style.display ='none';
     }
 }
+}
 
+onDelete()
 
 function newElement() {
     var li = document.createElement("li");
@@ -30,12 +32,7 @@ function newElement() {
    li.appendChild(button);
 
    const close =  document.getElementsByClassName('close');
-    for(let i = 0; i < close.length; i++){
-        close[i].onclick = function(){
-        let elem = document.getElementsByClassName('list');
-        elem[i].style.display ='none';
-    }
- }
+   onDelete();
 }
 
   
